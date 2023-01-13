@@ -1,0 +1,8 @@
+01_data
+figures
+oggm_run_gdir_folder
+*.out
+00_data_creating_scripts/.ipynb_checkpoints/*
+analysis_notebooks/.ipynb_checkpoints/*
+trials_or_old_notebooks
+.ipynb_checkpoints/README-checkpoint.md
