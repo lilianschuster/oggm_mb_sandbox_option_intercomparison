@@ -8,7 +8,7 @@ scripts to reproduce figures and analysis of Schuster et al. (2023, soon submitt
 
 
 ---
-**When using the code, please refer to the original publication in addition to this GitHUB repository (see below)**
+**When using the code, please refer to the below original publication in addition to this repository:**
 Schuster, L., Rounce, D. R., and Maussion, F.: Glacier projections sensitivity to temperature-index model choices and calibration strategies, Annals of Glaciology. in review, 2023. 
 
 ---
