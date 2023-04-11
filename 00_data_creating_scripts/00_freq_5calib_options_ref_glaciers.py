@@ -95,21 +95,11 @@ if load: # and calib == 'C1_C2': # in the other calib options
                 prepro_rgi_version='62')
     t = workflow.execute_entity_task(tasks.compute_downstream_line, gdirs)
     t = workflow.execute_entity_task(tasks.compute_downstream_bedshape, gdirs)
-    #if baseline_climate == 'W5E5':
-    #if mb_type != 'mb_monthly':
     t = workflow.execute_entity_task(process_w5e5_data, gdirs, climate_type=climate_type,
                                      temporal_resol='daily')
     t = workflow.execute_entity_task(process_w5e5_data, gdirs, climate_type=climate_type,
                                      temporal_resol='monthly')
-    #else:
-    #t = workflow.execute_entity_task(process_w5e5_data, gdirs, climate_type=baseline_climate,
-    #                              temporal_resol='monthly')
-    #else:
-    #t = workflow.execute_entity_task(process_w5e5_data, gdirs, climate_type=baseline_climate,
-    #                          temporal_resol='daily')
-    #t = workflow.execute_entity_task(process_era5_daily_data, gdirs, #climate_type=baseline_climate,
-                              #temporal_resol='daily'process_era5_daily_data(gd)
-    #                                )
+
 else:
     pass
 
