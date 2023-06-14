@@ -68,8 +68,9 @@ srun -n 1 -c "${SLURM_JOB_CPUS_PER_NODE}" singularity exec /home/users/lschuster
 	# Make sure latest pip is installed
 	pip install --upgrade pip setuptools
 	# OPTIONAL: install another OGGM version
+    pip install --upgrade "git+https://github.com/OGGM/oggm.git@9d173038862f36a21838034da07243bd189ef2d0"
     # before strange pull request (https://github.com/OGGM/oggm/pull/1500)
-    pip install --upgrade "git+https://github.com/OGGM/oggm.git@a3123b56b3b5bac964eaab7742aa73bc2507c067"
+    #pip install --upgrade "git+https://github.com/OGGM/oggm.git@a3123b56b3b5bac964eaab7742aa73bc2507c067"
 	#pip install --upgrade "git+https://github.com/OGGM/oggm.git@b0b4aae84a587c2f99cea2ba51bcb1342ef32f66"
 	#pip install --upgrade "git+https://github.com/lilianschuster/massbalance-sandbox.git@d5c9d713af35fd724f21d98c67d28c5f598894a2"
     

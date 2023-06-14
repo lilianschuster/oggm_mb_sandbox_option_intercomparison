@@ -60,10 +60,8 @@ srun -n 1 -c "${SLURM_JOB_CPUS_PER_NODE}" singularity exec /home/users/lschuster
 	# OPTIONAL: install another OGGM version
     # before strange pull request (https://github.com/OGGM/oggm/pull/1500)
     pip install --upgrade "git+https://github.com/OGGM/oggm.git@a3123b56b3b5bac964eaab7742aa73bc2507c067"
-	#pip install --upgrade "git+https://github.com/OGGM/oggm.git@b0b4aae84a587c2f99cea2ba51bcb1342ef32f66"
-	#pip install --upgrade "git+https://github.com/lilianschuster/massbalance-sandbox.git@d5c9d713af35fd724f21d98c67d28c5f598894a2"
     pip install --upgrade "git+https://github.com/lilianschuster/massbalance-sandbox.git@d310e7982521dace575a18160e1ebae9a8e15788"
-    
+    #3c46e97effa1632c920661000541d132afba7619
     # the actual run
     python3 /home/users/lschuster/oggm_mb_sandbox_option_intercomparison/00_data_creating_scripts/x_C1_t_melt_-1_options_ref_glacier.py "C1_C2"
 EOF
