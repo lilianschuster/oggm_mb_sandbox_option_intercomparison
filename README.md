@@ -1,6 +1,6 @@
 # oggm_mb_sandbox_option_intercomparison
 
-scripts to reproduce figures and analysis of Schuster et al. (2023, in review, submitted to Annals of Glaciology). We uploaded the preprint to EarthArXiv, and it is available under the DOI https://doi.org/10.31223/X5C65S .
+scripts to reproduce figures and analysis of [Schuster et al. (2023), doi: 10.1017/aog.2023.57](https://doi.org/10.1017/aog.2023.57).
 
 The scripts work together with the [OGGM development version 1.5.4.dev60+g9d17303](https://github.com/OGGM/oggm/commit/9d173038862f36a21838034da07243bd189ef2d0) and this [OGGM massbalance-sandbox commit](https://github.com/OGGM/massbalance-sandbox/tree/3c46e97effa1632c920661000541d132afba7619). Installing them can be done by e.g.:
 
@@ -14,8 +14,7 @@ The scripts work together with the [OGGM development version 1.5.4.dev60+g9d1730
 
 ---
 **When using the code, please refer to the below original publication in addition to this repository:**
-Schuster, L., Rounce, D. R., and Maussion, F.: Glacier projections sensitivity to temperature-index model choices and calibration strategies, Annals of Glaciology. in review, 2023. 
-
+[Schuster L, Rounce DR, Maussion F. Glacier projections sensitivity to temperature-index model choices and calibration strategies. Annals of Glaciology. 2023:1-16. doi:10.1017/aog.2023.57](https://doi.org/10.1017/aog.2023.57)
 ---
 
 If you have questions, don't hesitate to contact me via writing an issue or an email to lilian.schuster@uibk.ac.at. 
