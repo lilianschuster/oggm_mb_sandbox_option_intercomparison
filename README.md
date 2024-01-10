@@ -14,7 +14,7 @@ The scripts work together with the [OGGM development version 1.5.4.dev60+g9d1730
 
 ---
 **When using the code, please refer to the below original publication in addition to this repository:**
-[Schuster L, Rounce DR, Maussion F. Glacier projections sensitivity to temperature-index model choices and calibration strategies. Annals of Glaciology. 2023:1-16. doi:10.1017/aog.2023.57](https://doi.org/10.1017/aog.2023.57)
+- Schuster L, Rounce DR, Maussion F. Glacier projections sensitivity to temperature-index model choices and calibration strategies. Annals of Glaciology. 2023:1-16. [doi:10.1017/aog.2023.57](https://doi.org/10.1017/aog.2023.57)
 ---
 
 If you have questions, don't hesitate to contact me via writing an issue or an email to lilian.schuster@uibk.ac.at. 
